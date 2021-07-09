@@ -1,0 +1,93 @@
+.signupScreen__credentials {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.85);
+  margin-bottom: 81px;
+}
+.signupScreen__credentials form {
+  display: grid;
+  flex-direction: column;
+}
+.signupScreen__credentials form h1 {
+  font-size: 40px;
+  text-align: left;
+  font-weight: 600;
+}
+.signupScreen__credentials form input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 14px;
+  padding: 5px 15px;
+}
+.signupScreen__credentials form button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.signupScreen__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.signupScreen__rememberMe {
+  display: flex;
+  align-items: center;
+}
+.signupScreen__rememberMe input {
+  margin-right: 7px;
+}
+.signupScreen__rememberMe p {
+  font-size: 14px;
+  color: grey;
+}
+.signupScreen__needHelp p {
+  font-size: 14px;
+  color: grey;
+  cursor: pointer;
+}
+.signupScreen__needHelp p:hover {
+  text-decoration: underline;
+}
+.signupScreen__facebook {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.signupScreen__facebook img {
+  height: 20px;
+  margin-right: 9px;
+  object-fit: contain;
+}
+.signupScreen__facebook p {
+  font-size: 14px;
+  color: grey;
+}
+.signupScreen__signUp p {
+  text-align: left;
+}
+.signup__grey {
+  color: grey;
+  font-weight: 500;
+}
+.signup__link {
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.signup__link:hover {
+  text-decoration: underline;
+}

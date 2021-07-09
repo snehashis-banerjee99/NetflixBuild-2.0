@@ -1,0 +1,106 @@
+.loginScreen {
+  position: relative;
+  height: 105vh;
+  background: url("https://i.pinimg.com/originals/41/6a/7f/416a7fd4720a3c0dbd38c17f3ac8e0c1.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 105vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.loginScreen__logo {
+  position: absolute;
+  width: 180px;
+  padding-left: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.loginScreen__buttons {
+  position: relative;
+  top: 30px;
+}
+.loginScreen__language {
+  position: absolute;
+  right: 180px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px 6px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.loginScreen__languageIcon {
+  margin-right: 5px !important;
+}
+
+.loginScreen__signIn {
+  position: absolute;
+  right: 60px;
+  background: #e50914;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.loginScreen__body {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.loginScreen__body h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.loginScreen__body h2 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.loginScreen__body h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.loginScreen__input form input {
+  padding: 10px;
+  outline: none;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+  margin-bottom: 250px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #f40612;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}

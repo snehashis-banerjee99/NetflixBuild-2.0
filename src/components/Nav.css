@@ -1,0 +1,154 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  position: fixed;
+}
+.nav-black {
+  background-color: #111;
+}
+.nav__contentLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-option {
+  display: none;
+}
+.menu-option p {
+  display: flex;
+  align-items: center;
+}
+.menu-option__active {
+  font-weight: 400;
+}
+.nav-menu {
+  display: flex;
+}
+.nav__contentLeft p {
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+.nav__contentLeft p:hover {
+  color: white;
+  transition: all 0.2s;
+}
+.nav__contentRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__contentRight .nav__search {
+  margin-right: 20px !important;
+  color: white !important;
+  cursor: pointer;
+}
+.nav__contentRight .nav__giftCard {
+  margin-right: 20px !important;
+  color: white !important;
+  cursor: pointer;
+}
+.nav__contentRight .nav__notifications {
+  margin-right: 20px !important;
+  color: white !important;
+  cursor: pointer;
+}
+.nav__contentRight p {
+  margin-right: 20px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+.nav__logo {
+  width: 80px;
+  object-fit: contain;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  margin-right: 30px;
+}
+.menu-icon .MuiSvgIcon-root {
+  margin-right: 20px !important;
+  color: white !important;
+  cursor: pointer;
+}
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #111;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav__links {
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+    display: table;
+  }
+  .nav__links:hover {
+    background: #333333;
+    border-radius: 0;
+  }
+  .menu-option {
+    display: flex;
+    cursor: pointer;
+  }
+}
+.nav__headerDropdown {
+  display: flex;
+  align-items: center;
+}
+.dropdown-menu {
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  list-style: none;
+  margin-left: 50px;
+}
+.dropdown-menu h4 {
+  background: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+}
+.menu__border {
+  border-bottom: 1px solid grey;
+}
+.nav__arrowdropup {
+  color: #fff !important;
+}
+.nav__arrowdropdown {
+  color: #fff !important;
+}
+.dropdown-menu.clicked {
+  display: none;
+}
+.dropdown-menu h4:hover {
+  background: #404040;
+}
+.dropdown-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  font-weight: 400;
+}
