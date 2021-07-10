@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+To see the website, check- https://netflix-build-f4bf7.web.app/
 
 ### `yarn start`
 
